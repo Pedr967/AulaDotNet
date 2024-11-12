@@ -1,0 +1,4 @@
+cd /caminho/para/seu/projeto
+git add .
+git commit -m "Sua mensagem de commit aqui"
+git push origin nome-da-branch
