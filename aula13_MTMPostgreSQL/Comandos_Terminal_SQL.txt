@@ -1,0 +1,17 @@
+SELECT * FROM "Pessoas"
+
+SELECT * FROM "Habilidades";
+
+SELECT * FROM "PessoaHabilidade";
+
+-- Consultar todas as habilidades de uma pessoa específica
+SELECT "h"."Nome" 
+FROM "Habilidades" AS "h"
+JOIN "PessoaHabilidade" AS "ph" ON "h"."HabilidadeId" = "ph"."HabilidadeId"
+WHERE "ph"."PessoaId" = 1;
+
+-- Consultar todas as habilidades de uma pessoa específica
+SELECT "h"."Nome" 
+FROM "Habilidades" AS "h"
+JOIN "PessoaHabilidade" AS "ph" ON "h"."HabilidadeId" = "ph"."HabilidadeId"
+WHERE "ph"."PessoaId" = 2;
