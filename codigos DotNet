@@ -1,0 +1,26 @@
+Criar novo projeto:
+dotnet new console -n NomeDoProjeto
+
+Restaurar dependencias: 
+dotnet restore
+
+Compilar o codigo:
+dotnet build
+
+Executar projeto:
+dotnet run
+
+Publicar projeto:
+dotnet publish -c Release -o ./pastaDeSaida
+
+Adicionar um pacote NuGet:
+dotnet add package NomeDoPacote
+
+Adicionar referencia a outro projeto:
+dotnet add reference ../Caminho/DoOutroProjeto/OutroProjeto.csproj
+
+Atualizar SDK .NET
+dotnet tool update -g
+
+Listar modelo de projetos disponiveis:
+dotnet new --list
